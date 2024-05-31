@@ -46,6 +46,13 @@ public:
             return;
         }
         cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
+        //jika antrian hanya memuliki 1 element
+        if (FRONT == REAR) {
+            FRONT = -1;
+            REAR = -1;
+            cout << "Queue is empty\n";
+            return;
+        }
     }
 };
 
