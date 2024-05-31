@@ -50,11 +50,12 @@ public:
         if (FRONT == REAR) {
             FRONT = -1;
             REAR = -1;
-            cout << "Queue is empty\n";
-            return;
+
         }
 
-        cout << "\nElements in the queue are...\n";
+      
+
+      
     }
 };
 
