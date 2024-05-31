@@ -29,6 +29,15 @@ public:
             FRONT = 0;
             REAR = 0;
         }
+
+        else {
+            //jika rear breda di posisi terkahir array, kembal ke awal array
+            if (REAR == max - 1)
+                REAR = 0;
+            else
+                REAR = REAR + 1;
+        }
+        
     }
 };
 
